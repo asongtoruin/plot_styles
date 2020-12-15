@@ -10,7 +10,7 @@ ver_text = (here / 'plot_styles' / '__version.py').read_text(encoding='utf-8')
 exec(ver_text, version)
 
 setup(
-    name='palbums',
+    name='plot_styles',
     version=version['__version__'],
     description=(
         'Assorted matplotlib styles'
